@@ -7,12 +7,11 @@ export const Container = styled.div`
 
   div.titulo-section{
     width: 100%;
-    margin:  auto;
+    margin:  16px auto;
 
 
     font-weight: bold;
     font-size: 18px;
-    margin: 0 16px;
 
     p{
       margin: 0 16px;

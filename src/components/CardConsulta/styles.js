@@ -25,10 +25,12 @@ export const ConsultaCard = styled.section`
     box-sizing: border-box;
     padding: 0 16px;
 
+
     p{
       font-size: 16px;
       text-align: left;
       text-transform: uppercase;
+
     }
 
     strike{
@@ -46,9 +48,11 @@ export const ConsultaCard = styled.section`
       font-size: 12px;
       text-transform: uppercase;
       margin-bottom: 10px;
+
     }
 
     h3{
+      margin-left: 0;
       font-size: 26px;
       text-align: left;
       font-weight: bold;

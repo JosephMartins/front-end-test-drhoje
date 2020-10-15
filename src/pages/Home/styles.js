@@ -6,15 +6,23 @@ export const Container = styled.div`
   margin: 0 auto;
 
   div.titulo-section{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
+    margin:  auto;
 
-    margin: 24px 16px;
 
     font-weight: bold;
     font-size: 18px;
-    
+    margin: 0 16px;
+
+    p{
+      margin: 0 16px;
+    }
+
+    @media(max-width: 1700px){
+      p{
+        text-align: center;
+      }
+    }
   }
   
   h3{
@@ -28,6 +36,10 @@ export const Container = styled.div`
     max-width: 1685px;
     width: 100%;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   section.pacotes{
@@ -41,6 +53,7 @@ export const Container = styled.div`
   }
 
   section.consultas{
+
     width: 100%;
     margin: 0 auto;
 

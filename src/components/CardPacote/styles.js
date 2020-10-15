@@ -7,7 +7,6 @@ export const CardPacote = styled.section`
   height: 77px;
   max-width: 387px;
   width: 100%;
-  cursor: pointer;
 
   justify-content: space-between;
   border-radius: 4px;
@@ -35,6 +34,8 @@ export const CardPacote = styled.section`
   label.content-card{
     display: flex;
     align-items: center;
+    cursor: pointer;
+
   }
 
   div.info-group{

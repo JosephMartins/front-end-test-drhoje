@@ -74,10 +74,11 @@ export const ConsultaCard = styled.section`
     div.footer-preco{
       display: flex;
       justify-content: space-between;
+
     
       border-radius: 0  0 18px  18px;
       height: 15%;
-      padding: 8px 16px 0 16px;
+      padding: 0 16px 0 16px;
       transition:  0.6s;
 
       div{
@@ -93,10 +94,13 @@ export const ConsultaCard = styled.section`
         font-size: 16px;
         color: #0439D6;
         transition:  0.6s;
+        margin-top: 8px;
       }
 
       p{
         transition:  0.6s;
+        margin-top: 8px;
+
       }
     }
 
@@ -104,6 +108,10 @@ export const ConsultaCard = styled.section`
     div.footer-preco{
       background: #0439D6;
       
+      div{
+        border-top: 1px solid #0439D6;
+      }
+
       span{
         color: white;
       }

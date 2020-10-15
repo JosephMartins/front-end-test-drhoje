@@ -8,6 +8,7 @@ const CardPacote = ({ titulo, texto, valueInput, img }) => {
   const [isChecked, setIsChecked] = useState(false);
     
   return (
+    
     <S.CardPacote  isChecked={isChecked}>
       <label className="content-card" >
         <input onFocus={() => setIsChecked(true)} onBlur={() => setIsChecked(false)} type="radio" name="pacote"  value={valueInput} />

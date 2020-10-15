@@ -10,7 +10,6 @@ export const CardPacote = styled.section`
 
   justify-content: space-between;
   border-radius: 4px;
-  padding: 0 18px;
   margin: 8px 16px;
 
   border: 1px solid #0000001F;
@@ -34,9 +33,22 @@ export const CardPacote = styled.section`
   label.content-card{
     display: flex;
     align-items: center;
+
     cursor: pointer;
+    padding: 0 18px;
+    width: 100%;
+
+
+    div.info-card{
+      width: 100%;
+
+      display: flex;
+      align-items: center;
+    }
 
   }
+
+  
 
   div.info-group{
     h4{

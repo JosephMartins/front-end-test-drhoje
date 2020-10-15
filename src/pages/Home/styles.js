@@ -6,18 +6,28 @@ export const Container = styled.div`
   margin: 0 auto;
 
   div.titulo-section{
-    margin: 0 auto;
-    
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+
+    margin: 24px 16px;
+
+    font-weight: bold;
+    font-size: 18px;
+    
   }
   
   h3{
     font-size: 32px;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 58px 8px 50px 8px ;
+
+  }
+
+  main{
+    max-width: 1685px;
+    width: 100%;
+    margin: 0 auto;
   }
 
   section.pacotes{
@@ -33,7 +43,6 @@ export const Container = styled.div`
   section.consultas{
     width: 100%;
     margin: 0 auto;
-    margin-top: 42px;
 
     display: flex;
     align-items: center;

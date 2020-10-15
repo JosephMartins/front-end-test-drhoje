@@ -20,22 +20,23 @@ const Home = () => {
   return (
     <S.Container>
       <h3>Agende suas consultas e exames de forma rápida. Selecione uma assinatura e aproveite já as ofertas!</h3>
-
-      <section className="pacotes">
-        <CardPacote titulo="dr. black" texto="Selecione para ver as ofertas!" img={IconBlack} />
-        <CardPacote titulo="dr. top" texto="Selecione para ver as ofertas!" img={IconCiano} />
-        <CardPacote titulo="dr. up" texto="Selecione para ver as ofertas!" img={IconPink} />
-        <CardPacote titulo="Nenhuma assinatura" texto="Selecione para ver as ofertas!" img={IconBlue} />
-      </section>
-      <div className="titulo-section">
-        <p >Consultas</p>
-      </div>
-      <section className="consultas">
-        <CardConsulta titulo="Clínica Médica" img={img1} />
-        <CardConsulta titulo="Cardiologia" img={img2} />
-        <CardConsulta titulo="Ginecologia e Obstetríca" img={img3} />
-        <BuscarMais  />
-      </section>
+      <main>
+        <section className="pacotes">
+          <CardPacote titulo="dr. black" texto="Selecione para ver as ofertas!" img={IconBlack} />
+          <CardPacote titulo="dr. top" texto="Selecione para ver as ofertas!" img={IconCiano} />
+          <CardPacote titulo="dr. up" texto="Selecione para ver as ofertas!" img={IconPink} />
+          <CardPacote titulo="Nenhuma assinatura" texto="Selecione para ver as ofertas!" img={IconBlue} />
+        </section>
+        <div className="titulo-section">
+          <p >Consultas</p>
+        </div>
+        <section className="consultas">
+          <CardConsulta titulo="Clínica Médica" img={img1} />
+          <CardConsulta titulo="Cardiologia" img={img2} />
+          <CardConsulta titulo="Ginecologia e Obstetríca" img={img3} />
+          <BuscarMais  />
+        </section>
+      </main>
     </S.Container>
   )
 }

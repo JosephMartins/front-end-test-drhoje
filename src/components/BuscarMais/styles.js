@@ -16,10 +16,16 @@ export const BuscarMais = styled.section`
     padding: 16px;
     border-radius: 50%;
     color: #0439D6;
-    font-size: 22px;
+    font-size: 18px;
 
     display: flex;
     align-items: center;
+    transition: background 0.2s;
+
+    &:hover{
+      background: #0439D6;
+      color: #fff;
+    }
   }
 
   p{

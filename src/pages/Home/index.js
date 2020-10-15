@@ -31,9 +31,9 @@ const Home = () => {
           <p >Consultas</p>
         </div>
         <section className="consultas">
-          <CardConsulta titulo="Clínica Médica" img={img1} />
+          <CardConsulta titulo="Clínica Médica" img={img3} />
           <CardConsulta titulo="Cardiologia" img={img2} />
-          <CardConsulta titulo="Ginecologia e Obstetríca" img={img3} />
+          <CardConsulta titulo="Ginecologia e Obstetríca" img={img1} />
           <BuscarMais  />
         </section>
       </main>

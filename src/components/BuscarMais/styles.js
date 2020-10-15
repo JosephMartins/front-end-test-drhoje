@@ -9,6 +9,13 @@ export const BuscarMais = styled.section`
 
   display:flex;
   align-items: center;
+
+  &:hover{
+    div{
+      background: #0439D6;
+      color: #fff;
+    }
+  }
  
   div{
     margin: 0 16px;
@@ -22,10 +29,7 @@ export const BuscarMais = styled.section`
     align-items: center;
     transition: background 0.2s;
 
-    &:hover{
-      background: #0439D6;
-      color: #fff;
-    }
+    
   }
 
   p{

@@ -13,14 +13,13 @@ export const BuscarMais = styled.section`
   div{
     margin: 0 16px;
     border: 1px solid #0439D6;
-    display: flex;
-    align-items: center;
     padding: 16px;
     border-radius: 50%;
     color: #0439D6;
     font-size: 22px;
 
-    
+    display: flex;
+    align-items: center;
   }
 
   p{

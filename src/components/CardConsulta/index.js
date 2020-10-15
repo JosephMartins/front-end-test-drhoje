@@ -16,10 +16,11 @@ const CardConsulta = ({titulo, img}) => {
         <p className="card-preco-anterior"> de <strike>R$60</strike></p>
 
       </div>
-      <hr/>
       <div className="footer-preco">
-        <span>Agendar</span>
-        <p>por <span className="preco">R$28</span></p>
+        <div>
+          <span>Agendar</span>
+          <p>por <span className="preco">R$28</span></p>
+        </div>
       </div> 
     </S.ConsultaCard>
   )

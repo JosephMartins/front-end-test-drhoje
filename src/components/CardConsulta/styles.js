@@ -13,6 +13,7 @@ export const ConsultaCard = styled.section`
   div.card-img{
     display: flex;
     justify-content: flex-end;
+    
     img{
       display: block;
       max-width: 100%;
@@ -73,10 +74,18 @@ export const ConsultaCard = styled.section`
     div.footer-preco{
       display: flex;
       justify-content: space-between;
+    
       border-radius: 0  0 18px  18px;
       height: 15%;
       padding: 8px 16px 0 16px;
       transition:  0.6s;
+
+      div{
+        border-top: 1px solid grey;
+        width: 100%;
+        display: flex;
+        justify-content:space-between;
+      }
 
       span{
         color: black;

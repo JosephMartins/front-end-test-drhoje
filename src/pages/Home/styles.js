@@ -7,9 +7,10 @@ export const Container = styled.div`
 
   div.titulo-section{
     margin: 0 auto;
+    
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
   }
   
